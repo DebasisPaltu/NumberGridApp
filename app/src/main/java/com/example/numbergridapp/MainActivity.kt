@@ -73,7 +73,7 @@ fun NumberGridApp() {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Number Grid
+    
         LazyVerticalGrid(columns = GridCells.Fixed(10), modifier = Modifier.fillMaxSize()) {
             items(100) { index ->
                 val number = index + 1
